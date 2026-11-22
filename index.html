@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Student developer portfolio" />
+  <title>Parshuram Talwar | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home">PORTFOLIO<span>.</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="navigation">
+      <a href="#about">About</a><a href="#skills">Skills</a>
+      <a href="#projects">Projects</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">HELLO, WORLD! I'M</p>
+        <h1>Parshuram Talwar<span>.</span></h1>
+        <h2>Student · Aspiring Developer</h2>
+        <p class="intro">I enjoy learning how technology works and building useful things with code.</p>
+        <div class="actions">
+          <a class="button primary" href="#projects">Explore my work</a>
+          <a class="button secondary" href="#contact">Contact me</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="Code illustration">
+        <div class="window-dots"><i></i><i></i><i></i></div>
+        <pre><code><span class="code-purple">const</span> developer = {
+  curious: <span class="code-green">true</span>,
+  learning: <span class="code-green">"every day"</span>,
+  building: <span class="code-green">"the future"</span>
+};</code></pre>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <p class="eyebrow">GET TO KNOW ME</p>
+      <h2>About <span>Me</span></h2>
+      <p class="section-copy">I am a student interested in programming, technology, and creative problem-solving. I am building my skills one project at a time.</p>
+      <div class="info-grid">
+        <article class="info-card"><strong>Currently</strong><p>Learning and practising coding</p></article>
+        <article class="info-card"><strong>My goal</strong><p>Build projects that solve real problems</p></article>
+        <article class="info-card"><strong>Outside coding</strong><p>Add your hobbies and interests here</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <p class="eyebrow">WHAT I WORK WITH</p>
+      <h2>My <span>Skills</span></h2>
+      <p class="section-copy">These are starter examples. Update this list in <code>script.js</code> with every language and tool you have learned.</p>
+      <div class="skills-list" id="skills-list"></div>
+    </section>
+
+    <section class="section" id="projects">
+      <p class="eyebrow">THINGS I'VE MADE</p>
+      <h2>My <span>Projects</span></h2>
+      <p class="section-copy">Add your real classwork and personal projects here. Link each card to its GitHub repository.</p>
+      <div class="project-grid" id="project-list"></div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2>Contact <span>Me</span></h2>
+      <p class="section-copy">You can find me on these platforms. Replace the example links in <code>script.js</code> with your profile URLs.</p>
+      <div class="actions social-links" id="social-links"></div>
+    </section>
+  </main>
+
+  <footer><p>© <span id="year"></span> Parshuram Talwar. Built with curiosity and code.</p></footer>
+</body>
+</html>
